@@ -124,10 +124,42 @@ nav {
     max-height: 100vh;
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1250px) {
     .container {
         padding: 1rem 0;
         max-width: 80rem;
         margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
     }
+    .menu-icon {
+        display: none;
+    }
+
+    nav {
+        max-height: 50rem;
+        width: 50%;
+        position: relative;
+    }
+
+    ul.main-menu {
+        display: flex;
+    }
+
+    .main-menu li {
+        border-bottom: none;
+    }
+
+    h1 {
+        margin-top: 1rem;
+    }
+
+
 }
+
+
+/* ******* to do before handing in ************  */
+/* Finish off the wide screen version of the menu
+copy and paste header to every page, header should have different title
+validate
+upload and submit a url of the finished build  */
