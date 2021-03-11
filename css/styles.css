@@ -142,6 +142,10 @@ nav {
         position: relative;
     }
 
+    .dropdown-menu {
+        position: relative;
+    }
+
     ul.main-menu {
         display: flex;
     }
